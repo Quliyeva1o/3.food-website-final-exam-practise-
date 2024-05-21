@@ -1,0 +1,42 @@
+.head {
+  background-color: white;
+  position: fixed;
+  width: 100vw;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    div {
+      align-items: center;
+    }
+    h1 {
+      color: #000;
+      font-family: "Raleway";
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+    .nav {
+      align-items: center;
+      display: flex;
+      .navlinks {
+        list-style: none;
+
+        align-items: center;
+        margin-bottom: 0;
+        li {
+          padding: 30px 20px;
+
+          a {
+            text-decoration: none;
+            color: #000;
+            font-size: 13px;
+            font-family: "Raleway";
+          }
+          .active {
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+}

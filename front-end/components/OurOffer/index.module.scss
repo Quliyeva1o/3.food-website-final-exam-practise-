@@ -1,0 +1,13 @@
+.hero {
+  background-color: #f8f9fa;
+margin: 50px auto;
+  .card {
+    padding: 50px 0;
+    overflow: hidden;
+    img {
+      width: 100%;
+      padding: 10px;
+      object-fit: cover;
+    }
+  }
+}
